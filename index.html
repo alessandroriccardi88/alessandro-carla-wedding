@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alessandro & Carla | 17 Settembre 2026</title>
+  <meta name="description" content="Il matrimonio di Alessandro e Carla - 17 Settembre 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="monogram">A<span>&</span>C</div>
+    <p>17 Settembre 2026</p>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <a class="logo" href="#home">A<span>&</span>C</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#details">Dettagli</a>
+      <a href="#info">Info</a>
+      <a href="#gift">Lista nozze</a>
+      <a href="#photos">Foto</a>
+      <a href="#contacts">Contatti</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="shade"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Benvenuti al nostro matrimonio</p>
+      <h1>Alessandro <span>&</span> Carla</h1>
+      <p class="quote">“Quando c'è amore, la vita insieme diventa meravigliosa.”</p>
+      <p class="date">17 Settembre 2026 · Ore 10:30</p>
+
+      <div class="countdown" id="countdown">
+        <div><strong id="days">0</strong><span>Giorni</span></div>
+        <div><strong id="hours">0</strong><span>Ore</span></div>
+        <div><strong id="minutes">0</strong><span>Minuti</span></div>
+        <div><strong id="seconds">0</strong><span>Secondi</span></div>
+      </div>
+
+      <a class="primary-btn" href="#details">Scopri il nostro giorno</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro reveal">
+      <p class="section-kicker">Il nostro sì</p>
+      <h2>Non vediamo l'ora di festeggiare con voi.</h2>
+      <p>Abbiamo creato questa pagina per raccogliere tutte le informazioni utili: cerimonia, ricevimento, parcheggio, navetta, contatti e lista nozze.</p>
+    </section>
+
+    <section class="cards" id="details">
+      <article class="card reveal">
+        <div class="icon">💒</div>
+        <p class="section-kicker">Cerimonia</p>
+        <h3>Parrocchia S. Anna Gesù e Maria</h3>
+        <p>17 Settembre 2026 · Ore 10:30</p>
+        <p>Via Sant'Anna, 1<br>80070 Bacoli (NA)</p>
+        <a class="secondary-btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Parrocchia%20S.%20Anna%20Gesu%20e%20Maria%20Via%20Sant%27Anna%201%2080070%20Bacoli%20NA">Apri Google Maps</a>
+      </article>
+
+      <article class="card reveal">
+        <div class="icon">🥂</div>
+        <p class="section-kicker">Ricevimento</p>
+        <h3>Villa Punta Pennata</h3>
+        <p>Vi aspettiamo per continuare insieme la festa.</p>
+        <p>Via Francesco Petrarca, 1<br>80070 Bacoli (NA)</p>
+        <a class="secondary-btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Villa%20Punta%20Pennata%20Via%20Francesco%20Petrarca%201%2080070%20Bacoli%20NA">Apri Google Maps</a>
+      </article>
+    </section>
+
+    <section class="blue-section" id="info">
+      <div class="reveal">
+        <p class="section-kicker">Informazioni utili</p>
+        <h2>Parcheggio e navetta</h2>
+        <p>Per raggiungere comodamente la chiesa è disponibile un parcheggio con servizio navetta.</p>
+        <div class="info-box">
+          <strong>Via Guardascione, 58</strong>
+          <span>80070 Bacoli (NA)</span>
+        </div>
+        <a class="primary-btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Via%20Guardascione%2058%2080070%20Bacoli%20NA">Apri parcheggio su Maps</a>
+      </div>
+    </section>
+
+    <section class="gift" id="gift">
+      <div class="gift-card reveal">
+        <p class="section-kicker">Lista nozze</p>
+        <h2>Il regalo più bello sarà la vostra presenza.</h2>
+        <p>Per chi desiderasse contribuire al nostro futuro insieme, lasciamo qui il nostro IBAN.</p>
+        <div class="iban" id="iban">IT45U0301503200000005191079</div>
+        <button class="primary-btn" id="copyIban">Copia IBAN</button>
+        <p class="copy-message" id="copyMessage">IBAN copiato negli appunti.</p>
+      </div>
+    </section>
+
+    <section class="photos" id="photos">
+      <div class="reveal">
+        <p class="section-kicker">Foto</p>
+        <h2>I vostri ricordi renderanno questo giorno ancora più speciale.</h2>
+        <p>La galleria fotografica sarà attivata nella prossima versione del sito.</p>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="reveal">
+        <p class="section-kicker">Contatti</p>
+        <h2>Per qualsiasi informazione</h2>
+        <div class="contact-buttons">
+          <a class="secondary-btn" href="https://wa.me/393331427375" target="_blank">WhatsApp 333 1427375</a>
+          <a class="secondary-btn" href="https://wa.me/393314741097" target="_blank">WhatsApp 331 4741097</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">A<span>&</span>C</div>
+    <p>Alessandro ❤️ Carla</p>
+    <p>17 Settembre 2026</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
